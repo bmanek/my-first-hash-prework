@@ -1,6 +1,6 @@
 def my_hash
-  
-  {"Composer" = "Dvorak"}
+  my_hash = Hash.new
+  my_hash = {"Composer" = "Dvorak"}
 
 
 def shipping_manifest
