@@ -1,4 +1,6 @@
-my_hash = {"Composer" = "Dvorak"}
+def my_hash
+  
+  {"Composer" = "Dvorak"}
 
 
 def shipping_manifest
