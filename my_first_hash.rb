@@ -1,15 +1,15 @@
 def my_hash
   my_hash = Hash.new
-  my_hash = {"Composer" = "Dvorak"}
+  my_hash = {"Composer" => "Dvorak"}
   
   my_hash
 end
 
 
 def shipping_manifest
-  the_manifest = {"whale bone corsets" = 5, 
-                  "porcelain vases" = 2, 
-                  "oil paintings" = 3
+  the_manifest = {"whale bone corsets" => 5, 
+                  "porcelain vases" => 2, 
+                  "oil paintings" => 3
   }
 end
 
@@ -30,8 +30,8 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  shipping_manifest["muskets"] = 2               
-  shipping_manifest["gun powder"] = 4
+  shipping_manifest["muskets"] => 2               
+  shipping_manifest["gun powder"] => 4
 
   shipping_manifest
 
